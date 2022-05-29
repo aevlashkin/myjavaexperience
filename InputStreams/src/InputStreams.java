@@ -68,7 +68,7 @@ public class InputStreams {
             if (exit && symbol == 'q') break;
             exit = (symbol == ':');
 
-            System.out.println("UTF16 "+i+": " + symbolIn);
+            System.out.println("UNICODE "+i+": " + symbolIn);
             System.out.println("Symbol "+i+": " + symbol);
         }
     }
